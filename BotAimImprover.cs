@@ -83,10 +83,10 @@ public class BotAimImprover : BasePlugin
 
     private static readonly int[] _priorityBody =
     {
-        4, 5, 3,         // GUT, PELVIS, CHEST,
-        10, 11, 6, 7,    // L_GUT, R_GUT, L_CHEST, R_CHEST
+        4, 5, 10, 11,    // GUT, PELVIS, L_GUT, R_GUT
+        3, 6, 7,         // CHEST, L_CHEST, R_CHEST
         8, 9,            // L_SHOULDER, R_SHOULDER
-        2, 1, 0,         // JAW, NECK, HEAD
+        2, 1, 0,         // JAW, NECK, HEAD        
         12, 13, 14, 15,  // L_THIGH, R_THIGH, L_SHIN, R_SHIN
         16               // FEET
     };
