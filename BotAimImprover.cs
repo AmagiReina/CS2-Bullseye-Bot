@@ -122,14 +122,11 @@ public class BotAimImprover : BasePlugin
     }
 
     private static readonly Offsets LinuxOffsets = new(
-        ts: 0x596C, en: 0x59D8, vis: 0x59DC, pbot: 0x17D8,
+        ts: 0x596C, en: 0x59D8, vis: 0x59DC, pbot: 0x17E0,
         sig: "55 48 89 E5 41 55 41 54 53 48 89 FB 48 83 EC 58 8B 8F ? ? 00 00 83 F9 FF");
 
     private static readonly Offsets WindowsOffsets = new(
-        ts: 0x5994,
-        en: 0x5A00,
-        vis: 0x5A04,
-        pbot: 0x1510,
+        ts: 0x5994, en: 0x5A00, vis: 0x5A04, pbot: 0x1510,
         sig: "48 8B C4 55 57 48 8D 68 ? 48 81 EC ? ? ? ? 48 8B F9 0F 29 70 ? 8B 89 ? ? ? ? 83 F9 FF"
     );
 
