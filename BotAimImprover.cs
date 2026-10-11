@@ -96,7 +96,7 @@ public class BotAimImprover : BasePlugin
         4, 5, 10, 11,    // GUT, PELVIS, L_GUT, R_GUT
         3, 6, 7,         // CHEST, L_CHEST, R_CHEST
         8, 9,            // L_SHOULDER, R_SHOULDER
-        2, 1, 0,         // JAW, NECK, HEAD
+        2, 1, 0,         // JAW, NECK, HEAD        
         12, 13, 14, 15,  // L_THIGH, R_THIGH, L_SHIN, R_SHIN
         16               // FEET
     };
@@ -126,10 +126,7 @@ public class BotAimImprover : BasePlugin
         sig: "55 48 89 E5 41 55 41 54 53 48 89 FB 48 83 EC 58 8B 8F ? ? 00 00 83 F9 FF");
 
     private static readonly Offsets WindowsOffsets = new(
-        ts: 0x5994,
-        en: 0x5A00,
-        vis: 0x5A04,
-        pbot: 0x1510,
+        ts: 0x5994, en: 0x5A00, vis: 0x5A04, pbot: 0x1510,
         sig: "48 8B C4 55 57 48 8D 68 ? 48 81 EC ? ? ? ? 48 8B F9 0F 29 70 ? 8B 89 ? ? ? ? 83 F9 FF"
     );
 
